@@ -12,7 +12,7 @@ putchar(i);
 if (i != 57)
 {
 putchar(',');
-putchar('\t');
+putchar(' ');
 }
 }
 putchar('\n');

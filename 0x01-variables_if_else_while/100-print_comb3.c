@@ -5,12 +5,12 @@
 */
 int main(void)
 {
-int i,j;
+int i, j;
 for (i = 48; i <= 57; i++)
 {
 for (j = i + 1; j <= 57; j++)
 {
- if (i != j)
+if (i != j)
 {
 putchar(i);
 putchar(j);

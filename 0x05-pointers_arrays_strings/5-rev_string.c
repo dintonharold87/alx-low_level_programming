@@ -5,7 +5,8 @@
 #include "main.h"
 void rev_string(char *s)
 {
-	int x, y, z, length, length1;
+	int x, y, length, length1;
+	char swap;
 
 	x = 0;
 	while (s[x] != '\0')

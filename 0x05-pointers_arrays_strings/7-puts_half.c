@@ -5,21 +5,20 @@
 #include "main.h"
 void puts_half(char *str)
 {
-	int x, i, j;
+	int x, j;
 
 	x = 0;
 	while (str[x] != '\0')
 		x++;
 	if ((x % 2) == 0)
-	{
-		for (i = (x / 2); str[i] != '\0'; i++)
-			_putchar(str[i]);
-	}
+		j = x / 2;
 	else
 	{
-		for (j = (x - 1) / 2; j < (x - 1); j++)
-			_putchar(str[j + 1]);
+		j = (x - 1) / 2;
+		j += 1;
 	}
+		for (; j < x; j++)
+			_putchar(str[j]);
 	_putchar('\n');
 }
 

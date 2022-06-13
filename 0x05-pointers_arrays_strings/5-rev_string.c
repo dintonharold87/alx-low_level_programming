@@ -12,12 +12,14 @@ void rev_string(char *s)
 		x++;
 	length = x;
 	length1 = length - 1;
-
-	for (y = 0; y < length / 2; y++)
+	y = 0;
+	while (y <= length1)
 	{
-		z = s[y];
-		s[y] = s[length1];
-		s[length--] = z;
+		swap = *(s + y); /* store the first char) */
+		*(s + y) = *(s + length1);
+		*(s + length1) = swap;
+		y++;
+		length1--;
 	}
 }
 

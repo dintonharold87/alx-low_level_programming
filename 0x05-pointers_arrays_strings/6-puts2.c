@@ -15,6 +15,8 @@ void puts2(char *str)
 	{
 		if ((str[j] % 2) == 0)
 			_putchar(str[j]);
+		else
+			continue;
 	}
 	_putchar('\n');
 }

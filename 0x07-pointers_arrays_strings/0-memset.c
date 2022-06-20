@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _memset- starting address of the memory to be filled
+* _memset- function that fills memory with a constant byte
 * @s:Starting address of memory to be filled
 * @b:Value to be filled
 * @n:Number of bytes to be filled starting from ptr to be filled

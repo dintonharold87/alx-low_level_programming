@@ -20,4 +20,4 @@
 /0x09-static_libraries/*main.c
 /0x09-static_libraries/quote
 /0x09-static_libraries/*.o
-
+/0x09-static_libraries/*.c

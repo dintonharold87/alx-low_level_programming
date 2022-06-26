@@ -21,3 +21,4 @@
 /0x09-static_libraries/quote
 /0x09-static_libraries/*.o
 /0x09-static_libraries/*.c
+*_putchar.c

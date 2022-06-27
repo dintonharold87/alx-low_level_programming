@@ -12,11 +12,11 @@ char *_strdup(char *str)
 
 	len = 0;
 	i = 0;
-	while (str[len])
-		len++;
 	if (str == NULL)
 		return (NULL);
 
+	while (str[len])
+		len++;
 	p = (char *)malloc(sizeof(char) * (len + 1));
 	if (p == NULL)
 		return (NULL);

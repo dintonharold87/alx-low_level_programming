@@ -23,3 +23,5 @@
 /0x09-static_libraries/*.c
 *_putchar.c
 /0x0B-malloc_free/*main.c
+/0x0C-more_malloc_free/*main.c
+/0x0D-preprocessor/*main.c

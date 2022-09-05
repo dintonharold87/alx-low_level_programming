@@ -32,3 +32,5 @@
 /0x0F-function_pointers/_putchar.c
 /0x10-variadic_functions/_putchar.c
 /0x10-variadic_functions/*main.c
+/0x18-dynamic_libraries/*.c
+/0x18-dynamic_libraries/*.o
